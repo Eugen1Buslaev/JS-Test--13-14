@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>checked demo</title>
+  <style>
+  div {
+    color: red;
+  }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+  	$(function(){
+  
+      $('input[type="submit"]').on('click', function(){
+            if( $("input:checked" ).val() == 'Яблоко') {
+            	alert('Great');
+            }   else {
+            	alert('wrong')
+            }  
+      })
+  	
+
+
+
+
+  	});
+
+     
+
+  </script>
+</head>
+<body>
+ 
+<form>
+  <p>
+      <p>
+      <input type="checkbox" id = "first"  value = "Яблоко" >
+      <label for="">Яблоко</label>
+      </p>
+      
+      <p>
+      <input type="checkbox" id = "first"  value = "Груша">
+      <label for="">Груша</label>
+      </p>
+
+      <p>
+      <input type="checkbox" id = "first"  value = "Лимон">
+      <label for="">Лимон</label>
+      </p>
+
+
+      <input type="submit" value = "Проверить">
+
+
+  </p>
+</form>
+<div></div>
+ 
+
+ 
+</body>
+</html>
+
+
+
+
+
+</body>
+</html>
